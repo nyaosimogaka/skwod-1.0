@@ -59,6 +59,6 @@ class User(Base):
 
     def __repr__(self):
         return (
-            f"<Organization(organization_id={self.organization_id!r}, "
-            f"organization_name={self.organization_name!r}, organization_type={self.organization_type!r})>"
-        )
+            f"<User(user_id={self.user_id!r}, "
+            f"user_email={self.user_email!r})>"
+            )
